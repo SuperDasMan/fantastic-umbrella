@@ -36,3 +36,8 @@ CREATE TABLE productTag (
   INDEX tag_ind (tag_id),
   CONSTRAINT fk_tag FOREIGN KEY (tag_id) REFERENCES tag(id) ON DELETE SET NULL
 );
+
+SELECT * FROM category;
+SELECT * FROM product;
+SELECT * FROM tag;
+SELECT * FROM productTag;
