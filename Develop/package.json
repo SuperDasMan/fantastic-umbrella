@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:SuperDasMan/fantastic-umbrella.git"
+    "url": "git+ssh://git@github.com/SuperDasMan/fantastic-umbrella.git"
   },
   "keywords": [],
   "author": "Josh West",
@@ -26,5 +26,9 @@
     "mysql2": "^2.3.3",
     "sequelize": "^5.22.5"
   },
+  "bugs": {
+    "url": "https://github.com/SuperDasMan/fantastic-umbrella/issues"
+  },
+  "homepage": "https://github.com/SuperDasMan/fantastic-umbrella#readme",
   "description": ""
 }
