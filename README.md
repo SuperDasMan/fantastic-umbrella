@@ -51,4 +51,5 @@ SQL testing on MySQL Workbench and API endpoint testing on Insomnia.
 For questions, comments, or bug reports, please feel free to reach out me at [GitHub: SuperDasMan](https://github.com/SuperDasMan) or [Email me](mailto:bigdaddydas@gmail.com)
 
 _This README was generated with ❤️ by Josh West using [README-generator](https://github.com/SuperDasMan/README-Generator)_
+
 &copy; 2022 SuperDasMan Studios, LLC.
