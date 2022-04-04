@@ -30,6 +30,10 @@ Install Node.js and then clone the repository or download the .zip file. Open a 
 
 Run `npm init` and follow the prompts. Then run `npm i express sequelize mysql2 dotenv` followed by `npm start`. Open Insomnia and set the base URL to "http://localhost:3001/" to begin entering and testing API endpoints.
 
+View a walkthrough [video](https://drive.google.com/file/d/1ldQGQ6nnJ1yBHZV5VZuS_1glWq_eLd60/view) explaining the installation and usage of this app.
+
+Or watch this handy [gif](https://github.com/SuperDasMan/fantastic-umbrella/blob/main/assets/videos/Fantastic-Umbrella.gif)![gif](https://github.com/SuperDasMan/fantastic-umbrella/blob/main/assets/videos/Fantastic-Umbrella.gif).
+
 ## License
 
 ## [MIT](#license)
