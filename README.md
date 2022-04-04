@@ -32,7 +32,7 @@ Run `npm init` and follow the prompts. Then run `npm i express sequelize mysql2 
 
 View a walkthrough [video](https://drive.google.com/file/d/1ldQGQ6nnJ1yBHZV5VZuS_1glWq_eLd60/view) explaining the installation and usage of this app.
 
-Or watch this handy [gif](https://github.com/SuperDasMan/fantastic-umbrella/blob/main/assets/videos/Fantastic-Umbrella.gif)![gif](https://github.com/SuperDasMan/fantastic-umbrella/blob/main/assets/videos/Fantastic-Umbrella.gif).
+Or watch this handy [gif](https://github.com/SuperDasMan/fantastic-umbrella/blob/main/assets/videos/Fantastic-Umbrella-Zoom.gif)![gif](https://github.com/SuperDasMan/fantastic-umbrella/blob/main/assets/videos/Fantastic-Umbrella-Zoom.gif).
 
 ## License
 
