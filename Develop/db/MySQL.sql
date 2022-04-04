@@ -1,11 +1,11 @@
-/*DROP DATABASE IF EXISTS ecommerce_db;
+DROP DATABASE IF EXISTS ecommerce_db;
 CREATE DATABASE ecommerce_db;
 USE ecommerce_db;
 
-DROP TABLE IF EXISTS category;
-DROP TABLE IF EXISTS product;
-DROP TABLE IF EXISTS tag;
 DROP TABLE IF EXISTS productTag;
+DROP TABLE IF EXISTS tag;
+DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS category;
 
 CREATE TABLE category (
   id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
@@ -36,8 +36,3 @@ CREATE TABLE productTag (
   INDEX tag_ind (tag_id),
   CONSTRAINT fk_tag FOREIGN KEY (tag_id) REFERENCES tag(id) ON DELETE SET NULL
 );
-
-SELECT * FROM category;
-SELECT * FROM product;
-SELECT * FROM tag;
-SELECT * FROM productTag;

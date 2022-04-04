@@ -1,34 +1,31 @@
 {
-  "name": "fantastic-umbrella",
+  "name": "feature-umbrella",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SuperDasMan/fantastic-umbrella.git"
+    "url": "git+https://github.com/SuperDasMan/fantastic-umbrella.git"
   },
-  "keywords": [],
   "author": "Josh West",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
-  },
-  "dependencies": {
-    "dotenv": "^8.6.0",
-    "express": "^4.17.3",
-    "inquirer": "^8.2.2",
-    "jest": "^27.5.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^5.22.5"
-  },
   "bugs": {
     "url": "https://github.com/SuperDasMan/fantastic-umbrella/issues"
   },
   "homepage": "https://github.com/SuperDasMan/fantastic-umbrella#readme",
-  "description": ""
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }

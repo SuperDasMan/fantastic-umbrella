@@ -6,6 +6,7 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all tags
   Tag.findAll({
+    attributes: ['id', 'tag_name'],
     include: [
       {
         model: Product,
@@ -23,6 +24,10 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   Tag.findOne({
+    where: {
+      id: req.params.id,
+    },
+    attributes: ['id', 'tag_name'],
     include: [
       {
         model: Product,
@@ -48,14 +53,7 @@ router.post('/', (req, res) => {
   Tag.create({
     tag_name: req.body.tag_name,
   })
-    .then((dbTagData) => {
-      req.session.save(() => {
-        req.session.tag_id = dbTagData.tag_id;
-        req.session.tag_name = dbTagData.tag_name;
-
-        res.json(dbTagData);
-      });
-    })
+    .then((dbTagData) => res.json(dbTagData))
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
@@ -71,7 +69,7 @@ router.put('/:id', (req, res) => {
     },
   })
     .then((dbTagData) => {
-      if (!dbTagData) {
+      if (!dbTagData[0]) {
         res.status(404).json({ message: 'No tag found with this id' });
         return;
       }
